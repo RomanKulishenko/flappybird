@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: linear-gradient(45deg, rgb(105, 44, 105), rgb(64, 131, 154));
+}
+
+.container {
+  width: 100%;
+  max-width: 320px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.panel {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.panel__title {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.game {
+  width: 320px;
+  height: 480px;
+  border: #2c2c2d solid 3px;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
